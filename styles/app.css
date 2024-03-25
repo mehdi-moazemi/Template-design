@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --orange: #e76f51;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Roboto;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 
+
+Header styles
+
+*/
+.header {
+  background: linear-gradient(rgba(59, 55, 53, 50%), rgba(59, 55, 53, 50%)),
+    url("../img/header-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 50rem;
+  border-bottom-left-radius: 6.5rem;
+  border-bottom-right-radius: 6.5rem;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.nav-logo {
+}
+.nav-logo__img {
+}
+.menu {
+  display: none;
+}
+.menu__item {
+}
+.menu__link {
+}
+.nav-mune {
+  position: fixed;
+  left: -25rem;
+  top: 0;
+  bottom: 0;
+  width: 25rem;
+  background-color: rgb(35, 32, 32);
+  padding: 2.5rem;
+  transition: all 250ms;
+}
+.nav-mune--oppen{
+  left: 0;
+}
+.menu-mobile {
+}
+.munu-mobile__item {
+  margin-bottom: 2rem;
+}
+.mune-mobile__link {
+  color: #fff;
+  font-size: small;
+}
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+.nav__link {
+  color: #fff;
+  font-size: small;
+  border: 0.1rem solid #fff;
+  padding: 1rem;
+  flex-basis: 50%;
+  border-radius: 1rem;
+}
+.nav__link--border {
+}
+.header-links {
+  display: none;
+}
+.header__link {
+}
+
+.header__link--border {
+}
+
+.nav__btn {
+  background-color: #fff;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav__btn-line {
+  display: block;
+  width: 2.5rem;
+  height: 0.2rem;
+  background-color: var(--orange);
+  border-radius: 0.5rem;
+  position: relative;
+  transition: all 250ms;
+}
+
+.nav__btn-line::before,
+.nav__btn-line::after {
+  content: "";
+  width: 2.5rem;
+  height: 0.2rem;
+  border-radius: 0.5rem;
+  background-color: var(--orange);
+  position: absolute;
+  transition: all 250ms;
+}
+
+.nav__btn-line::before {
+  top: -0.8rem;
+}
+.nav__btn-line::after {
+  top: 0.8rem;
+}
+.nav__btn--open .nav__btn-line {
+  background-color: transparent;
+}
+
+.nav__btn--open .nav__btn-line::before {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.nav__btn--open .nav__btn-line::after {
+  transform: translateY(-8px) rotate(-45deg);
+}
