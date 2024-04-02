@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>camping</title>
-    <link rel="icon" href="svgs/logo.svg" />
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/fonts.css" />
-    <link rel="stylesheet" href="styles/grid.css" />
-    <link rel="stylesheet" href="styles/app.css" />
-  </head>
-  <body>
-    <div>
-      <header class="header">
-        <div class="container">
-          <nav class="nav">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>camping</title>
+  <link rel="icon" href="svgs/logo.svg" />
+  <link rel="stylesheet" href="styles/reset.css" />
+  <link rel="stylesheet" href="styles/fonts.css" />
+  <link rel="stylesheet" href="styles/grid.css" />
+  <link rel="stylesheet" href="styles/app.css" />
+  <link rel="stylesheet" href="styles/risponsive.css" />
+
+</head>
+
+<body>
+  <div>
+
+    <!-- header -->
+
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <div class="nav-menu-wrapper">
             <a class="nav-logo">
               <img class="nav-logo__img" src="svgs/logo.svg" />
             </a>
 
             <ul class="menu">
               <li class="munu__item">
-                <a class="menu__link" href="#"> Home </a>
+                <a class="menu__link menu__link--active" href="#"> Home </a>
               </li>
               <li class="munu__item">
                 <a class="menu__link" href="#"> Destin ation </a>
@@ -45,53 +53,97 @@
                 <a class="menu__link" href="#"> Contact us </a>
               </li>
             </ul>
+          </div>
 
-            <div class="nav-mune ">
-              <ul class="menu-mobile">
-                <li class="munu-mobile__item">
-                  <a class="mune-mobile__link" href="#"> Home </a>
-                </li>
-                <li class="munu-mobile__item">
-                  <a class="mune-mobile__link" href="#">Destin ation</a>
-                </li>
-                <li class="munu-mobile__item">
-                  <a class="mune-mobile__link" href="#"> Near me </a>
-                </li>
-                <li class="munu-mobile__item">
-                  <a class="mune-mobile__link" href="#"> Events </a>
-                </li>
-                <li class="munu-mobile__item">
-                  <a class="mune-mobile__link" href="#"> Blog </a>
-                </li>
-                <li class="munu-mobile__item">
-                  <a class="mune-mobile__link" href="#"> Gallery </a>
-                </li>
-                <li class="munu-mobile__item">
-                  <a class="mune-mobile__link" href="#"> About </a>
-                </li>
-                <li class="munu-mobile__item">
-                  <a class="mune-mobile__link" href="#"> Contact us </a>
-                </li>
-              </ul>
+          <div class="nav-mune">
+            <ul class="menu-mobile">
+              <h2 class="menu-mobile__title">Camping WebSite</h2>
+              <li class="munu-mobile__item">
+                <a class="mune-mobile__link" href="#"> Home </a>
+              </li>
+              <li class="munu-mobile__item">
+                <a class="mune-mobile__link" href="#">Destin ation</a>
+              </li>
+              <li class="munu-mobile__item">
+                <a class="mune-mobile__link" href="#"> Near me </a>
+              </li>
+              <li class="munu-mobile__item">
+                <a class="mune-mobile__link" href="#"> Events </a>
+              </li>
+              <li class="munu-mobile__item">
+                <a class="mune-mobile__link" href="#"> Blog </a>
+              </li>
+              <li class="munu-mobile__item">
+                <a class="mune-mobile__link" href="#"> Gallery </a>
+              </li>
+              <li class="munu-mobile__item">
+                <a class="mune-mobile__link" href="#"> About </a>
+              </li>
+              <li class="munu-mobile__item">
+                <a class="mune-mobile__link" href="#"> Contact us </a>
+              </li>
+            </ul>
 
-              <div class="nav-links">
-                <a class="nav__link" href="#"> signin </a>
-                <a class="nav__link nav__link--border" href="#"> signup </a>
-              </div>
+            <div class="nav-links">
+              <a class="nav__link" href="#"> signin </a>
+              <a class="nav__link nav__link--border" href="#"> signup </a>
             </div>
+          </div>
 
-            <div class="header-links">
-              <a class="header__link" href="#"> signin </a>
-              <a class="header__link--border" href="#"> signup </a>
-            </div>
-            <div class="nav__btn">
-              <span class="nav__btn-line"></span>
-            </div>
-          </nav>
+          <div class="header-links">
+            <a class="header__link" href="#"> sign in </a>
+            <a class="header__link header__link--border" href="#">
+              sign up
+            </a>
+          </div>
+          <div class="nav__btn">
+            <span class="nav__btn-line"></span>
+          </div>
+        </nav>
+
+        <div class="header-content">
+          <h1 class="header-content__title">Find yourself outsidde</h1>
+          <p class="header-content__caption">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+            blanditiis maxime illum, magni culpa similique modi
+          </p>
+          <a href="#" class="btn header-content__link">discover</a>
         </div>
-      </header>
-    </div>
 
-    <script src="script/app.js"></script>
-  </body>
+      </div>
+    </header>
+
+<!-- main -->
+
+    <main class="main">
+      <div class="container">
+        <section class="services">
+          <div class="servic">
+            <img src="svgs/fire.svg" class="servic__logo">
+            <h2 class="servic__title"> Camping Day Use</h2>
+            <p class="servic__caption">Return to your favorite spot or discover a new one that's right for you</p>
+          </div>
+          <div class="servic">
+            <img src="svgs/paper.svg" class="servic__logo">
+            <h2 class="servic__title"> Tours tickets</h2>
+            <p class="servic__caption">Return to your favorite spot or discover a new one that's right for you</p>
+          </div>
+          <div class="servic">
+            <img src="svgs/tickets.svg" class="servic__logo">
+            <h2 class="servic__title"> Permits</h2>
+            <p class="servic__caption">Return to your favorite spot or discover a new one that's right for you</p>
+          </div>
+          <div class="servic">
+            <img src="svgs/fish.svg" class="servic__logo">
+            <h2 class="servic__title"> Camping Day Use</h2>
+            <p class="servic__caption">Return to your favorite spot or discover a new one that's right for you</p>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script src="script/app.js"></script>
+</body>
+
 </html>

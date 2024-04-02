@@ -1,0 +1,78 @@
+@media (min-width: 576px) {
+  .container {
+    width: 570px;
+  }
+}
+
+
+
+/* 
+
+-- min-width --
+
+*/
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+
+  .nav__btn {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+
+  .header-links {
+    display: flex;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1150px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1370px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .container {
+    width: 1570px;
+  }
+}
+
+
+
+/* 
+
+-- max-width --
+
+*/
+
+
+@media (max-width:300px) {
+  .header-content__caption {
+    display: none;
+  }
+
+  .nav-mune {
+    width: 21rem;
+  }
+
+  .mune-mobile__link {
+    font-size: 1.2rem;
+  }
+}
