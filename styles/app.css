@@ -361,3 +361,119 @@ section services
   text-align: center;
   padding: 0 1rem;
 }
+
+
+
+/* 
+
+=====================
+section destinations 
+=====================
+
+*/
+
+
+
+
+.destinations {
+  text-align: center;
+  padding: 6rem 0;
+}
+
+.destinations__logo {}
+
+.destinations__title {
+  margin: 3rem auto;
+  font-size: 3rem;
+  max-width: 31.4rem;
+  color: var(--dark);
+  font-family: var(--Secondary-font);
+}
+
+.destinations__places {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.2rem;
+}
+
+.place {
+  background-color: #fff;
+  width: 30rem;
+  flex-grow: 1;
+  padding: 3rem;
+  border-radius: 3rem;
+}
+
+.place__banner {
+  position: relative;
+}
+
+.place__img {
+  border-radius: 2rem;
+  width: 100%;
+  height: 100%;
+}
+
+.place__like {
+  background-color: #fff;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+}
+
+.place__like-icon {}
+
+.place__price {}
+
+.place__price-text {
+  background-color: #fff;
+  color: var(--orange);
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 10rem;
+  height: 2.6rem;
+  text-align: center;
+  line-height: 2.6rem;
+  font-size: 1.2rem;
+  border-radius: 1rem
+}
+
+.place__title {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--dark);
+}
+
+.place__caption {
+  font-size: 1.4rem;
+  margin-bottom: 2.5rem;
+  color: var(--dark);
+}
+
+.place__link {
+  background-color: rgba(141, 141, 141, 10%);
+  margin: auto;
+  color: #8D8D8D;
+}
+
+.destinations__btn {
+  background-color: transparent;
+  color: var(--orange);
+  margin: 2.5rem auto;
+  border: 0.1rem solid var(--orange);
+}
+
+.destinations__btn:hover {
+  background-color: var(--orange);
+  color: #fff;
+}
